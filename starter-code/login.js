@@ -1,6 +1,6 @@
 console.log("login.js loaded");
 
-let userLogin = [
+var userLogin = [
 		{
 			userName: "bellabug",
 			password: "bug"
