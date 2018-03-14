@@ -17,7 +17,7 @@ var securityQuestions = [
 for (var i = 0; i < securityQuestions.length; i++) {
 	var userAnswer = window.prompt(securityQuestions[i].question);
  	if (userAnswer !== securityQuestions[i].expectedAnswer) {
- 		window.prompt("Incorrect unable to access acount")
+ 		window.prompt("Incorrect unable to access account")
  		break
  	};
 

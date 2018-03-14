@@ -15,7 +15,7 @@ var loggedIn = false;
 
 while (!loggedIn && fail < 3) {
 	userPassword = window.prompt("Enter password for user bellabug")
-	if (userPassword === userLogin.password) {
+	if (userPassword === userLogin[0].password) {
 		alert("Welcome back")
 		loggedIn = true;
 	} else {
