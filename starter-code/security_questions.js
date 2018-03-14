@@ -1,7 +1,7 @@
 console.log("security_questions.js loaded");
 
 var securityQuestions = [
-	{ question: "What is your date of birth?",
+	{ question: "Where were you born?",
 	  expectedAnswer: "Canada"
 	},
 
@@ -15,7 +15,7 @@ var securityQuestions = [
 ]
 
 for (var i = 0; i < securityQuestions.length; i++) {
-	var userAnswer = securityQuestions[i].question;
+	var userAnswer = window.prompt(securityQuestions[i].question);
  	if (userAnswer !== securityQuestions[i].expectedAnswer) {
  		window.prompt("Incorrect unable to access acount")
  		break
